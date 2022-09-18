@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Start Header Styling */
+
+.header {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.container {
+    padding-left: 4rem;
+    /* padding-left: 50px; */
+    padding-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;*/
+}
+
+.header .logo {
+    width: 150px;
+}
+
+/* .header .links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+} */
+
+.header .links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* .header .links ul li {
+    margin-right: 15px;
+} */
+
+.header .links ul li a {
+    padding: 20px 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    /* transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s; */
+}
+
+.header .links ul li a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.header .links ul li a.active {
+    color: rgb(156, 156, 156);
+}
+
+/* End Header Styling */
+
+hr {
+    border: none;
+    border-top: 2px dotted #ddd;
+    margin: 15px 0;
+}
+
+/* Start Top Section Styling */
+
+.section {
+    display: flex;
+    padding: 40px 0;
+}
+
+.left-column {
+    /* display: flex; */
+    /* width: calc((100%-40px)/2); */
+    /* height: 100%; */
+    background-image: url("/images/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 2rem;
+}
+
+.on-l-pic {
+    margin-top: 160px;
+    margin-left: 65px;
+    line-height: 60px;
+    color: white;
+}
+
+.on-l-pic:hover {
+    color: dodgerblue;
+}
+
+button {
+    color: white;
+    width: 140px;
+    height: 50px;
+    background: transparent;
+    border-color: white;
+    cursor: pointer;
+}
+
+/* .section .left-column .banner img {
+    width: 600px;
+    margin: 5px;
+} */
+
+.right-column {
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 2rem;
+    width: 50%;
+    /* width: 50%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.women {
+    background-image: url('/images/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2rem;
+    /* margin-bottom: 2rem; */
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.men {
+    background-image: url('/images/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.access {
+    background-image: url('/images/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.kids {
+    background-image: url('/images/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.on-r-pic {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.on-r-pic:hover {
+    color: dodgerblue;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/* End Top Section Styling */
+
+/* Start Bottom Sections Styling */
+
+.a-section {
+    padding: 1rem 5rem;
+    width: fit-content;
+}
+
+.a-section:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.men-section {
+    /* padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    color: darkgray;
+    width: fit-content;
+    transition: .5s;
+}
+
+p:hover {
+    color: dodgerblue;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.point {
+    cursor: pointer;
+}
+
+.point:hover {
+    background-color: #ddd;
+}
+
+/* The Stars */
+
+.sp1-a {
+    margin-left: 156px;
+}
+
+.sp1-b {
+    margin-left: 178px;
+}
+
+.sp1-c {
+    margin-left: 163px;
+}
+
+.sp2-a {
+    margin-left: 123px;
+}
+
+.sp2-b {
+    margin-left: 168px;
+}
+
+.sp2-c {
+    margin-left: 133px;
+}
+
+.sp3-a {
+    margin-left: 130px;
+}
+
+.sp3-b {
+    margin-left: 173px;
+}
+
+.sp3-c {
+    margin-left: 190px;
+}
+
+/* End Bottom Sections Styling */
